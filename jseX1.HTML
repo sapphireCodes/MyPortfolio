@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Website</h1>
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellat porro perspiciatis vel explicabo quasi ab, perferendis suscipit, ducimus voluptatibus architecto aliquam eligendi! Dolor nisi ad non consequuntur qui distinctio?</p>
+    <script>
+
+        //alert("Welcome to my website");
+        //alert("bye bye");
+        var name=prompt("Your name please:");
+        //document.write("Welcome to my website "+name);
+        var paragrph=document.getElementById("para1");
+        
+        paragrph.style.border="2px solid black";
+        paragrph.style.backgroundColor="yellow";
+        if(name.toLowerCase()=="neelam"){
+            paragrph.innerHTML+="Welcome to my website "+name;
+        }
+        else{
+            paragrph.innerHTML+="Not Welcome"+name;
+        }
+        
+    </script>
+
+</body>
+</html>

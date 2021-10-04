@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:40vw;
+            height:auto;
+            overflow:hidden;
+            background-color: aqua;
+        }
+        #mydiv img{
+            width:50px;
+            height:50px;
+            
+        }
+        #mydiv:hover{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my webpage</h1>
+    <div id="mydiv" onclick="fun1(this)">
+    <img src="ballons.png">
+    <p>this is div</p>
+    </div>
+   
+    <script>
+        function fun1(e){
+            var newe=document.createElement("p");
+            newe.innerHTML="Hello All, this is my webpage<br> Hope you enjoy..";
+            e.appendChild(newe);
+        }
+    </script>
+
+</body>
+
+</html>

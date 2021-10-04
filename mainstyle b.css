@@ -1,0 +1,83 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    transition:animation 5s;
+    font-family: Bradley Hand ITC;
+    animation: bgchng 20s ease-in-out 2s infinite alternate both;
+}
+
+@keyframes bgchng {
+    0% {background-image: linear-gradient(to bottom right,rgb(113, 104, 235),rgb(247, 112, 58));}
+    25% {background-image: linear-gradient(to bottom right,rgb(134, 248, 114),rgb(218, 119, 218));}
+    50% {background-image: linear-gradient(to bottom right,rgb(211, 85, 85),rgb(103, 168, 184));}
+    100% {background-image: linear-gradient(to bottom right,rgb(76, 131, 138),rgb(197, 141, 243));}
+}
+.jumbotron{
+    background-color: transparent;
+}
+#logoimg{
+    width:15%;
+    border-radius:50%;
+    box-shadow: gray 5px 3px; 
+    float:left;
+}
+#mainheading{
+    font-size:7vw;
+    text-align:center;
+    margin:auto;
+    font-family: Bradley Hand ITC;
+    color:rgb(65, 53, 39);
+    font-weight: 900;
+}
+#topnav{
+    width:90%;
+    margin: auto;
+    border-radius: 20%;
+}
+#topnav:hover{
+    outline: rgb(119, 29, 29);
+    box-shadow: 5px 5px rgb(78, 79, 161);
+}
+#topnav a:hover{
+    color:rgb(231, 145, 145);
+}
+#topnav a{
+    margin-left:20px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius:30%;
+    padding:0px 2%;
+    width:max-content;
+    background-color: cadetblue;
+    color:black;
+    box-shadow: gray 3px 4px;
+    font-family: cursive;
+}
+.row{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content{
+    padding:1%;
+    margin:1%;
+    margin-bottom:30px;
+    border-radius: 10%;
+    background-color: #f5edeb;
+    overflow:hidden;
+}
+.content img,video,iframe{
+    width:98%;
+}
+h2{
+    text-align: center;
+    color:rgb(65, 53, 39);
+    font-weight: 900;
+    font-size: 2.5vw;
+}
+.content p{
+    text-align:center;
+    font-family: cursive;
+    font-size: 1.5vw;
+}

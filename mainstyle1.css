@@ -1,0 +1,120 @@
+body{
+    
+    font-family: Bradley Hand ITC;
+    animation: bgchng 20s linear -2s infinite alternate;
+}
+@keyframes bgchng {
+    from {background-image: linear-gradient(to bottom right,rgb(113, 104, 235),rgb(247, 112, 58));}
+    to {background-image: linear-gradient(to bottom right,rgb(134, 248, 114),rgb(248, 141, 69));}
+}
+#header{
+    width: 98%;
+    margin-bottom: 1%;
+    overflow: hidden;
+    position:fixed;
+    top:0px;
+    background-image: linear-gradient(to bottom right,rgb(250, 214, 155),rgb(128, 248, 188));
+    padding:0.5%;
+    box-shadow: rgb(64, 70, 68) 2px 2px;
+}
+#logoimg{
+    border-radius:50%;
+    width:15%;
+    box-shadow: gray 5px 3px;
+    float:left;
+    margin:0.4%;
+}
+#mainheading{
+    font-size:6vw;
+    width:70%;
+    text-align:center;
+    float: left;
+    display:block;
+    font-family: Bradley Hand ITC;
+    color:rgb(65, 53, 39);
+    font-weight: 900;
+}
+#topnav{
+    overflow: hidden;
+    float:left;
+    width:20%;
+    height:auto;
+    background-image: linear-gradient(to bottom right,rgb(250, 214, 155),rgb(128, 248, 188));
+    border-radius: 10%;
+    border:gray 1px solid;
+    box-shadow: 3px 5px rgb(64, 70, 68);
+    padding: 1%;
+    position: fixed;
+    top:40%;
+    left:1px;
+}
+#topnav:hover{
+    outline: brown;
+    box-shadow: 5px 5px gray;
+}
+#topnav a{
+    display:block;
+    margin:10%;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    color:whitesmoke;
+    box-shadow: gray 3px 4px;
+    background-color: cadetblue;
+    text-align: center;
+    border-radius: 10%;
+    font-family: cursive;
+    transition: 0.5s;
+}
+#topnav a:hover{
+    transform:translate(-20px,-2px);
+    color:rgb(230, 136, 136);
+    box-shadow: 7px 7px 5px rgb(61, 41, 41);
+}
+.maindiv{
+    float:right;
+    display: block;
+    margin-top: 40%;
+    width:75%;
+    margin:1%;
+    padding:1%;
+    padding-top: 18%;
+    
+}
+.leftdiv{
+    width:100%;
+    margin:auto;
+    border-radius: 10%;
+    background-color:rgb(102, 138, 121);
+    margin-bottom: 1%;
+    padding:1%;
+}
+.rightdiv{
+    width:100%;
+    margin:auto;
+    border-radius: 10%;
+    background-color:rgb(102, 138, 121);
+    margin-bottom: 1%;
+    padding:1%;
+}
+.content{
+    padding:1%;
+    margin:1%;
+    margin-bottom:30px;
+    border-radius: 10%;
+    background-color: #f5edeb;
+}
+.content img,video,iframe{
+    width:98%;
+}
+h2{
+    text-align: center;
+    color:rgb(65, 53, 39);
+    font-weight: 900;
+    font-size: 3vw;
+}
+.content p{
+    text-align:center;
+    font-family: cursive;
+    font-size: 1.5vw;
+}

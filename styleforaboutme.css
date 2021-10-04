@@ -1,0 +1,44 @@
+body{
+    background-image: radial-gradient(gray,pink);
+    color:crimson;
+}
+h1{
+    color:darkblue;
+    background-image: radial-gradient(rgb(206, 219, 23),rgb(233, 139, 155));
+    font-family:Bradley Hand ITC;
+    width:80%;
+    margin:auto;
+    margin-bottom: 20px;
+    text-align:center;
+    box-shadow: darkolivegreen 10px 10px;
+    border-radius:5%;
+
+}
+img{
+    width:40%;
+    box-shadow: darkolivegreen 10px 10px;
+    border-radius:5% 30%;
+    margin:1%;
+}
+p{
+    background-image: linear-gradient(cadetblue,lightgray);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:45%;
+    float:right;
+    padding:9% 5%;
+    margin:1%;
+    border-radius: 10% 30%;
+    box-shadow: darkolivegreen 10px 10px;
+    font-family: cursive;
+    font-size:larger;
+}
+pre{
+    width:80%;
+    margin:auto;
+    background-image:linear-gradient(lightgray,rgb(137, 225, 228));
+    padding:2% 5%;
+    border-radius: 10% 20%;
+    font-size: large;
+    box-shadow: darkolivegreen 10px 10px;
+}

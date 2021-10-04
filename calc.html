@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body id="main">
+    <p id="para1"></p>
+    <label for="name">Name :</label>
+    <input type="text" id="name" name="name">
+    <label for="pwd">Password :</label>
+    <input type="text" id="pwd" name="pwd">
+    <button onclick="check()">Check</button>
+    <br><br>
+    <p id="res"></p>
+    <script>
+        var no1=0;
+        var no2=0;
+        var result=0;
+        function check(){
+            n1=document.getElementById("name").value;
+            p1=document.getElementById("pwd").value;
+            if (n1==p1){
+                alert("OK");
+                window.open("index.html");
+            }
+            else{
+                alert("Incorrect");
+            }
+        }
+    </script>
+</body>
+</html>
